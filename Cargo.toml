@@ -1,0 +1,16 @@
+[package]
+name = "tide-lambda-listener"
+version = "0.1.0"
+authors = ["Jeremiah Senkpiel <fishrock123@rocketmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+# Dev-deps
+
+[dev-dependencies.cargo-husky]
+version = "1"
+default-features = false # Disable features which are enabled by default
+features = ["user-hooks"]
