@@ -7,8 +7,40 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+http = "0.2" # hyperium http, used by lambda
+lambda_http = { version = "0.3", git = "https://github.com/Fishrock123/aws-lambda-rust-runtime.git", branch = "expose-types-useful-to-other-runtimes" }
+lambda_runtime = { version = "0.3", git = "https://github.com/Fishrock123/aws-lambda-rust-runtime.git", branch = "expose-types-useful-to-other-runtimes" }
+tracing = "0.1"
+
+[dependencies.async-std]
+version = "1.9"
+default-features = false
+features = ["std"]
+
+[dependencies.http-client]
+version = "6.4"
+default-features = false
+features = ["unstable-config"]
+
+[dependencies.http-types]
+version = "2.11"
+features = ["hyperium_http"]
+
+[dependencies.surf]
+version = "2.1"
+default-features = false
+features = ["h1-client", "encoding"]
+
+[dependencies.tide]
+version = "0.16"
+default-features = false
 
 # Dev-deps
+
+[dev-dependencies.async-std]
+version = "1.9"
+default-features = false
+features = ["attributes"]
 
 [dev-dependencies.cargo-husky]
 version = "1"
