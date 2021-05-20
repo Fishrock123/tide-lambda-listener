@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://book.async.rs/overview
 
 ## [Unreleased]
 
+## [0.1.3] - 2021-05-20
+
+### Dependencies
+- Switched to rustls to avoid native-tls cross-compilation.
+
 ## [0.1.2] - 2021-05-20
 
 ### Internal
