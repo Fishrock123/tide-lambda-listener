@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://book.async.rs/overview
 
 ## [Unreleased]
 
+## [0.1.2] - 2021-05-20
+
+### Internal
+- Fixed the patched lambda dependencies.
+
 ## [0.1.1] - 2021-05-19
 
 (This release only contains more `Cargo.toml` information.)
