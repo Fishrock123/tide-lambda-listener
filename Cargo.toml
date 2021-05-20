@@ -16,8 +16,8 @@ categories = [
 
 [dependencies]
 http = "0.2" # hyperium http, used by lambda
-lambda_http = { version = "0.3", git = "https://github.com/Fishrock123/aws-lambda-rust-runtime.git", branch = "expose-types-useful-to-other-runtimes" }
-lambda_runtime = { version = "0.3", git = "https://github.com/Fishrock123/aws-lambda-rust-runtime.git", branch = "expose-types-useful-to-other-runtimes" }
+lambda_http = { version = "0.3.0-patched.1", package = "fishrock_lambda_http" }
+lambda_runtime = { version = "0.3.0-patched.1", package = "fishrock_lambda_runtime" }
 tracing = "0.1"
 
 [dependencies.async-std]
