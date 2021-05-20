@@ -35,9 +35,9 @@ version = "2.11"
 features = ["hyperium_http"]
 
 [dependencies.surf]
-version = "2.1"
+version = "2.2"
 default-features = false
-features = ["h1-client", "encoding"]
+features = ["h1-client-rustls", "encoding"]
 
 [dependencies.tide]
 version = "0.16"
