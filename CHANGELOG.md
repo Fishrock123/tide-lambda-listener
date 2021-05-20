@@ -7,7 +7,11 @@ and this project adheres to [Semantic Versioning](https://book.async.rs/overview
 
 ## [Unreleased]
 
-## [0.1.0]
+## [0.1.1] - 2021-05-19
+
+(This release only contains more `Cargo.toml` information.)
+
+## [0.1.0] - 2021-05-19
 
 ### Added
 - Initial `LambdaListener` for Tide!
